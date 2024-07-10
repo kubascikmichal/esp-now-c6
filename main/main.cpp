@@ -56,7 +56,7 @@ void app_main(void)
             &counts[4], &counts[5], &counts[6], &counts[7]);
             printf("%d,%d,%d,%d,%d,%d,%d,%d\n\r", counts[0], counts[1], counts[2], counts[3], 
             counts[4], counts[5], counts[6], counts[7]);
-            client->sendThingSpeak("HDLNWJ0FFFI3JT3K",counts);
+            client->sendThingSpeak("AQWIBASIMU7QGW8E",counts);
         }
         vTaskDelay(200 / portTICK_PERIOD_MS);
     }
